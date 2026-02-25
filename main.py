@@ -4,9 +4,9 @@ p1=Professeur("tazi","aziz","fes",5000)
 p2=Professeur("jilali","driss","tanger",4500)
 p3=Professeur("amzil","foad","safrou",7000)
 
-anc1=input("saisir l'anciennete de profeseur:{p1.nom} ")
-anc2=input("saisir l'anciennete de profeseur:{p2.nom} ")
-anc3=input("saisir l'anciennete de profeseur:{p3.nom} ")
+anc1=input(f"saisir l'anciennete de profeseur:{p1.nom} ")
+anc2=input(f"saisir l'anciennete de profeseur:{p2.nom} ")
+anc3=input(f"saisir l'anciennete de profeseur:{p3.nom} ")
 
 p1.anciennete=int(anc1)
 p2.anciennete=int(anc2)
